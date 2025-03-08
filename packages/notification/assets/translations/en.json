@@ -1,0 +1,6 @@
+{
+  "notification_label_Notifications": "Notifications",
+  "notification_emptyState_NoNotificationFoundMessage": "We will notify you once we have something to share with you! ",
+  "notification_emptyState_NoNotificationFoundTitle": "No notification yet",
+  "notification_details_title": "Notification details"
+}

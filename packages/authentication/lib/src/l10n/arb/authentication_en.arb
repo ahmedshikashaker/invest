@@ -1,0 +1,132 @@
+{
+  "@@locale": "en",
+  "authenticationRegistrationTitleUserRegistration": "User Registration",
+  "@authenticationRegistrationTitleUserRegistration": {
+    "description": "Title text displayed at the top of the user registration screen."
+  },
+  "authenticationRegistrationSubtitleStartProvidingYourDetails": "Start providing your details, enter your email ID and choose your password",
+  "@authenticationRegistrationSubtitleStartProvidingYourDetails": {
+    "description": "Subtitle instructing users to fill out their email and choose a password."
+  },
+  "authenticationRegistrationLabelEmail": "Email ID",
+  "@authenticationRegistrationLabelEmail": {
+    "description": "Label for the email input field."
+  },
+  "authenticationRegistrationLabelPassword": "Password",
+  "@authenticationRegistrationLabelPassword": {
+    "description": "Label for the password input field."
+  },
+  "authenticationRegistrationLabelConfirmPassword": "Confirm Password",
+  "@authenticationRegistrationLabelConfirmPassword": {
+    "description": "Label for the confirm password input field."
+  },
+  "authenticationRegistrationButtonContinue": "Continue",
+  "@authenticationRegistrationButtonContinue": {
+    "description": "Text for the primary button to continue registration."
+  },
+  "authenticationRegistrationRequirementsTitle": "Your password must contain:",
+  "@authenticationRegistrationRequirementsTitle": {
+    "description": "Heading text for password requirement specifications."
+  },
+  "authenticationRegistrationRequirementsLength": "8 to 20 characters",
+  "@authenticationRegistrationRequirementsLength": {
+    "description": "Describes the minimum and maximum password length."
+  },
+  "authenticationRegistrationRequirementsUpperAndLowerAndNumberAndSpecialCharacter": "One uppercase, one lowercase letter, one number and one special character",
+  "@authenticationRegistrationRequirementsUpperAndLowerAndNumberAndSpecialCharacter": {
+    "description": "Requirement specifying password composition."
+  },
+  "authenticationRegistrationRequirementsPasswordMatch": "Must match the password and confirm password",
+  "@authenticationRegistrationRequirementsPasswordMatch": {
+    "description": "Requirement that password and confirm password fields match."
+  },
+  "authenticationEmailOTPTitle": "Enter the verification code",
+  "@authenticationEmailOTPTitle": {
+    "description": "Prompt title for users to enter the verification code sent to their email."
+  },
+  "authenticationPersonalDetailsRegistrationTitleUserRegistration": "User Registration",
+  "@authenticationPersonalDetailsRegistrationTitleUserRegistration": {
+    "description": "Title displayed at the top when collecting personal details."
+  },
+  "authenticationPersonalDetailsRegistrationSutitleFillYourPersonalDetails": "Fill in your personal details",
+  "@authenticationPersonalDetailsRegistrationSutitleFillYourPersonalDetails": {
+    "description": "Subtitle instructing the user to provide personal details."
+  },
+  "authenticationPersonalDetailsRegistrationCivilId": "Civil Id",
+  "@authenticationPersonalDetailsRegistrationCivilId": {
+    "description": "Label for the civil ID field."
+  },
+  "authenticationPersonalDetailsRegistrationMobileNumber": "Mobile number",
+  "@authenticationPersonalDetailsRegistrationMobileNumber": {
+    "description": "Label for the mobile number field."
+  },
+  "authenticationPersonalDetailsRegistrationButtonContinue": "Continue",
+  "@authenticationPersonalDetailsRegistrationButtonContinue": {
+    "description": "Button text for continuing after entering personal details."
+  },
+  "authenticationMobileNumberOTPTitle": "Enter the verification code",
+  "@authenticationMobileNumberOTPTitle": {
+    "description": "Prompt title for users to enter the verification code sent to their mobile."
+  },
+  "authenticationRegistrationSuccessTitle": "Congratulations\nYou're all set!",
+  "@authenticationRegistrationSuccessTitle": {
+    "description": "Message displayed when registration is successful (includes a line break)."
+  },
+  "authenticationRegistrationSuccessDescripation": "You have successfully registered",
+  "@authenticationRegistrationSuccessDescripation": {
+    "description": "Short message confirming successful registration."
+  },
+  "authenticationRegistrationSuccessButton": "Continue",
+  "@authenticationRegistrationSuccessButton": {
+    "description": "Button text displayed on the registration success screen."
+  },
+  "skip": "Skip",
+  "getStarted": "Get started",
+  "onBoardingTitle1": "Invest the Shariah-Compliant Way",
+  "onBoardingTitle2": "Secure, Flexible, Ethical",
+  "onBoardingTitle3": "Start your investment journey",
+  "onBoardingDescription1": "Start your Shariah-compliant journey with stable and secure returns.",
+  "onBoardingDescription2": "Flexible, ethical investments that preserve and grow your wealth.",
+  "onBoardingDescription3": "Open your account and make your first investment in just a few simple steps.",
+  "login": "Login",
+  "exploreInvestmentOpportunities": "Explore investment opportunities",
+  "neverUsedOnlineKIBInvestBefore": "Never used online KIB Invest before?",
+  "registerNow": "Register now",
+  "loginDetails": "Login details",
+  "pleaseEnterYourEmailIDAndPassword": "Please enter your Email ID and password",
+  "emailID": "Email ID",
+  "password": "Password",
+  "forgotPassword": "Forgot password?",
+  "paciAuthenticationFailedTitle": "Authentication Failed",
+  "paciAuthenticationFailedDescription": "Your PACI authentication request has been rejected",
+  "paciAuthHeader": "Authorize Kuwait Mobile ID",
+  "reAuthPaciHeader": "Re-Authenticate",
+  "paciAuthSuccessTitle": "PACI authentication was successful",
+  "paciAuthSuccessDesc": "Please review your information and continue to complete the onboarding process.",
+  "continueTitle": "Continue",
+  "englishNameTitle": "Name in English",
+  "arabicNameTitle": "Name in Arabic",
+  "civilIdTitle": "Civil ID",
+  "civilIdExpiryDateTitle": "Civil ID expiry date",
+  "dateOfBirthTitle": "Date of birth",
+  "nationalityTitle": "Nationality",
+  "genderTitle": "Gender",
+  "addressTitle": "Address",
+  "openPaciAndAcceptTitle": "Please open the app and accept the request under",
+  "authPaciAndSignTitle": "'Authenticate & Sign' tab",
+  "paciAuthRequestSentTitle": "An authentication request has been submitted to your Kuwait Mobile ID app and is awaiting your verification.",
+  "paciAuthExpiresInTitle": "Authentication request expires in",
+  "didYouForgotPassword": "Forgot password?",
+  "civilID": "Civil id",
+  "pleaseEnterYourCivilIDAndPhoneNumber": "Please enter your civil ID and phone number",
+  "buttonContinue": "continue",
+  "mobileNumber": "Mobile number",
+  "resetPassword": "Reset password",
+  "confirmPassword": "Confirm Password",
+  "passwordMustAtLeastBe": "Password must at least be:",
+  "passwordLength": "8 to 20 characters",
+  "validPassword": "One uppercase, one lowercase letter, one number and one special character",
+  "passwordMatching": "Must match the password and confirm password",
+  "congratulationsYouAllSet": "Congratulations, you’re all set!",
+  "yourPasswordHasBeenUpdated": "Your password has been updated"
+}

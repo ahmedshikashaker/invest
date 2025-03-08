@@ -1,0 +1,259 @@
+#include: package:leancode_lint/analysis_options.yaml
+#
+## Additional information about this file can be found at
+## https://dart.dev/guides/language/analysis-options
+#
+## dart pub global activate custom_lint
+## dart run custom_lint
+#
+####################### custom_lint ###########################
+#custom_lint:
+#  rules:
+#    # Configure use_design_system_item rule
+#    - use_design_system_item:
+##      severity: error  # Can be 'error', 'warning', or 'info'
+#      AppText:
+#        - instead_of: Text
+#          from_package: flutter
+#          message: "Use AppText instead of Text for consistent design system implementation"
+#        - instead_of: RichText
+#          from_package: flutter
+#          message: "Use AppText instead of RichText for consistent design system implementation"
+#      AppScaffold:
+#        - instead_of: Scaffold
+#          from_package: flutter
+#          message: "Use AppScaffold instead of Scaffold for consistent design system implementation"
+#      AppButton:
+#        - instead_of: ElevatedButton
+#          from_package: flutter
+#          message: "Use AppButton instead of ElevatedButton for consistent design system implementation"
+#        - instead_of: TextButton
+#          from_package: flutter
+#          message: "Use AppButton instead of TextButton for consistent design system implementation"
+#        - instead_of: OutlinedButton
+#          from_package: flutter
+#          message: "Use AppButton instead of OutlinedButton for consistent design system implementation"
+#        - instead_of: FloatingActionButton
+#          from_package: flutter
+#          message: "Use AppButton instead of FloatingActionButton for consistent design system implementation"
+#      AppContainer:
+#        - instead_of: Container
+#          from_package: flutter
+#          message: "Use AppContainer instead of Container for consistent design system implementation"
+#        - instead_of: SizedBox
+#          from_package: flutter
+#          message: "Use AppContainer instead of SizedBox for consistent design system implementation"
+#      AppTextField:
+#        - instead_of: TextField
+#          from_package: flutter
+#          message: "Use AppTextField instead of TextField for consistent design system implementation"
+#        - instead_of: TextFormField
+#          from_package: flutter
+#          message: "Use AppTextField instead of TextFormField for consistent design system implementation"
+#        - instead_of: CupertinoTextField
+#          from_package: flutter
+#          message: "Use AppTextField instead of CupertinoTextField for consistent design system implementation"
+#      AppPadding:
+#        - instead_of: Padding
+#          from_package: flutter
+#          message: "Use AppPadding instead of Padding for consistent design system implementation"
+#      AppGap:
+#        - instead_of: Spacer
+#          from_package: flutter
+#          message: "Use AppGap instead of Spacer for consistent design system implementation"
+#        - instead_of: Divider
+#          from_package: flutter
+#          message: "Use AppGap instead of Divider for consistent design system implementation"
+#      AppIcon:
+#        - instead_of: Icon
+#          from_package: flutter
+#          message: "Use AppIcon instead of Icon for consistent design system implementation"
+#      AppPopUpInfo:
+#        - instead_of: AlertDialog
+#          from_package: flutter
+#          message: "Use AppPopUpInfo instead of AlertDialog for consistent design system implementation"
+#        - instead_of: SimpleDialog
+#          from_package: flutter
+#          message: "Use AppPopUpInfo instead of SimpleDialog for consistent design system implementation"
+#        - instead_of: SnackBar
+#          from_package: flutter
+#          message: "Use AppPopUpInfo instead of SnackBar for consistent design system implementation"
+#      AppDropdown:
+#        - instead_of: DropdownButton
+#          from_package: flutter
+#          message: "Use AppDropdown instead of DropdownButton for consistent design system implementation"
+#        - instead_of: DropdownButtonFormField
+#          from_package: flutter
+#          message: "Use AppDropdown instead of DropdownButtonFormField for consistent design system implementation"
+#      AppTextField.datePicker:
+#        - instead_of: DatePickerDialog
+#          from_package: flutter
+#          message: "Use AppTextField.datePicker instead of DatePickerDialog for consistent design system implementation"
+#      AppCircularProgressIndicator:
+#        - instead_of: CircularProgressIndicator
+#          from_package: flutter
+#          message: "Use AppCircularProgressIndicator instead of CircularProgressIndicator for consistent design system implementation"
+#        - instead_of: RefreshProgressIndicator
+#          from_package: flutter
+#          message: "Use AppCircularProgressIndicator instead of RefreshProgressIndicator for consistent design system implementation"
+#
+#
+####################### analyzer ###########################
+## With analyzer we can add [plugins, exclude, language, errors]
+#analyzer:
+#  # Takes one plugin only
+#  plugins:
+#    - custom_lint  # Specify a plugin to extend analyzer functionality (e.g., custom linting rules).
+#
+#
+#  exclude:
+#    - "**/test/**"  # Exclude all test directories.
+#    - "**/tests/**" # Exclude any 'tests' directories.
+#    - "**/*_test.dart"  # Exclude individual test files.
+#    - "**/*.g.dart"  # Exclude auto-generated files.
+#
+#  strong-mode:
+#    implicit-casts: true
+#
+#  language:
+#    strict-casts: true  # Enforce explicit type casting.
+#    strict-inference: true  # Require type annotations where inference might be ambiguous.
+#    strict-raw-types: true  # Disallow the use of raw types without generics.
+#
+#  # Use 'error' if it's a strict policy.
+#  # Use 'warning' if it's a guideline.
+#  # Use 'info' if it's a soft suggestion.
+#
+#  errors:
+#    use_design_system_item: error  # This sets the default severity for all use_design_system_item rules
+#    avoid_print: error  # Disallow using 'print' statements in production code.
+#    must_be_immutable: error  # Ensure classes are immutable unless explicitly marked otherwise.
+#    invalid_use_of_visible_for_testing_member: error  # Prevent misuse of members marked for testing.
+#    prefer_const_constructors: error  # Enforce using 'const' constructors where possible.
+#    unused_import: error  # Flag unused imports to keep the code clean.
+#    require_trailing_commas: error  # Require trailing commas in multiline parameter lists.
+#    lines_longer_than_80_chars: error  # Enforce the maximum line length of 80 characters.
+#    unused_catch_clause: error  # Disallow unused variables in 'catch' clauses.
+#    avoid_catches_without_on_clauses: error  # Require specific exception types in 'catch' clauses.
+#    prefer_final_locals: error  # Prefer 'final' for local variables when they are not reassigned.
+#    always_declare_return_types: error  # Require explicit return types for functions and methods.
+#    cast_nullable_to_non_nullable: error  # Disallow unsafe casts from nullable to non-nullable types.
+#    avoid_final_parameters: error  # Avoid declaring method parameters as 'final'.
+#    unnecessary_to_list_in_spreads: error  # Disallow unnecessary `.toList()` calls in spreads.
+#    avoid_positional_boolean_parameters: error  # Use named parameters instead of positional booleans.
+#    noop_primitive_operations: error  # Disallow operations that have no effect on primitive types.
+#    use_string_buffers: error  # Prefer using StringBuffer for string concatenation in loops.
+#    type_annotate_public_apis: error  # Require type annotations for public APIs.
+#    leading_newlines_in_multiline_strings: error  # Disallow leading newlines in multiline strings.
+#    use_setters_to_change_properties: error  # Use setters instead of direct property modification.
+#    unnecessary_statements: error  # Flag statements that have no effect.
+#    avoid_multiple_declarations_per_line: error  # Declare one variable per line.
+#    avoid_bool_literals_in_conditional_expressions: error  # Avoid using boolean literals directly in conditionals.
+#    use_named_constants: error  # Prefer named constants instead of hardcoded values.
+#    avoid_field_initializers_in_const_classes: error  # Disallow field initializers in 'const' classes.
+#    prefer_null_aware_method_calls: error  # Use null-aware operators when calling methods on nullable objects.
+#    # -- ignoring rules -- #
+#    avoid_setters_without_getters: ignore  # Allow setters without corresponding getters.
+#    sort_pub_dependencies: ignore  # Do not enforce sorting of dependencies in pubspec.yaml.
+#    avoid_classes_with_only_static_members: ignore  # Allow classes with only static members.
+#    depend_on_referenced_packages: ignore  # Allow dependencies not explicitly listed in pubspec.yaml.
+#    avoid_dynamic_calls: ignore  # Do not enforce restrictions on dynamic calls.
+#
+#
+####################### dart_code_metrics ###########################
+#dart_code_metrics:
+#  rules:
+#    - avoid-dynamic: true  # Avoid using the 'dynamic' type.
+#    - avoid-redundant-async: true  # Disallow 'async' where it's unnecessary.
+#    - avoid-passing-async-when-sync-expected: true  # Prevent passing async functions when sync ones are expected.
+#    - avoid-unnecessary-type-assertions: true  # Disallow type assertions that have no effect.
+#    - avoid-unnecessary-type-casts: true  # Disallow type casts that are redundant.
+#    - avoid-unrelated-type-assertions: true  # Prevent assertions for unrelated types.
+#    - avoid-unused-parameters: true  # Disallow unused parameters in function/method definitions.
+#    - avoid-nested-conditional-expressions: true  # Simplify nested conditional expressions.
+#    - newline-before-return: true  # Enforce a newline before return statements for readability.
+#    - no-boolean-literal-compare: true  # Avoid explicit boolean comparisons with literals.
+#    - no-empty-block: true  # Disallow empty code blocks.
+#    - prefer-trailing-comma: true  # Require trailing commas in collections and arguments.
+#    - prefer-conditional-expressions: true  # Prefer conditional expressions over multiple 'if-else'.
+#    - no-equal-then-else: true  # Ensure 'if' and 'else' branches are not identical.
+#    - prefer-moving-to-variable: true  # Extract complex expressions into variables for clarity.
+#    - prefer-match-file-name: true  # Ensure file names match the class or function they define.
+#
+#
+####################### linter ###########################
+#linter:
+#  rules:
+#    - require_trailing_commas: false  # Allow omission of trailing commas.
+#    - camel_case_types: true  # Enforce camelCase for type names. MyClassName / my_class_name
+#    - library_names: true  # Require lowercase_with_underscores for library names.
+#    - avoid_catching_errors: true  # Prevent catching errors instead of exceptions.
+#    - avoid_empty_else: true  # Disallow empty 'else' blocks.
+#    - unnecessary_brace_in_string_interps: true  # Avoid unnecessary braces in string interpolation.
+#    - avoid_redundant_argument_values: true  # Disallow specifying default argument values explicitly.
+#    - slash_for_doc_comments: true  # Use '///' for documentation comments.
+#    - sort_constructors_first: true  # Order constructors before other members in a class.
+#    - use_build_context_synchronously: true  # Avoid asynchronous use of BuildContext after awaiting.
+#    - prefer_single_quotes: true  # Use single quotes for strings.
+#    - sort_pub_dependencies: false  # Do not enforce sorting of pubspec.yaml dependencies.
+#    - avoid_classes_with_only_static_members: false  # Allow classes with only static members.
+#    - depend_on_referenced_packages: false  # Allow dependencies not explicitly listed in pubspec.yaml.
+#    - avoid_dynamic_calls: false  # Allow dynamic calls.
+#      # false positive
+#    - one_member_abstracts: false
+#
+#      #too verbose
+#    - prefer_final_parameters: false
+#
+#      # Too verbose with little value, and this is taken care of by the Flutter devtool anyway.
+#    - diagnostic_describe_all_properties: false
+#
+#      # Personal preference. I prefer "if (bool) return;" over having it in multiple lines
+#    - always_put_control_body_on_new_line: false
+#
+#      # Personal preference. I don't find it more readable
+#    - cascade_invocations: false
+#
+#      # Conflicts with `prefer_single_quotes`
+#      # Single quotes are easier to type and don't compromise on readability.
+#    - prefer_double_quotes: false
+#
+#      # Conflicts with `omit_local_variable_types` and other rules.
+#      # As per Dart guidelines, we want to avoid unnecessary types to make the code
+#      # more readable.
+#      # See https://dart.dev/guides/language/effective-dart/design#avoid-type-annotating-initialized-local-variables
+#    - always_specify_types: false
+#
+#      # Incompatible with `prefer_final_locals`
+#      # Having immutable local variables makes larger functions more predictible
+#      # so we will use `prefer_final_locals` instead.
+#    - unnecessary_final: false
+#
+#      # Not quite suitable for Flutter, which may have a `build` method with a single
+#      # return, but that return is still complex enough that a "body" is worth it.
+#    - prefer_expression_function_bodies: false
+#
+#      # Conflicts with the convention used by flutter, which puts `Key key`
+#      # and `@required Widget child` last.
+#    - always_put_required_named_parameters_first: false
+#
+#      # This project doesn't use Flutter-style todos
+#    - flutter_style_todos: false
+#
+#      # There are situations where we voluntarily want to catch everything,
+#      # especially as a library.
+#      #- avoid_catches_without_on_clauses: false
+#
+#      # Boring as it sometimes force a line of 81 characters to be split in two.
+#      # As long as we try to respect that 80 characters limit, going slightly
+#      # above is fine.
+#      #- lines_longer_than_80_chars: false
+#
+#      # Conflicts with disabling `implicit-dynamic`
+#    - avoid_annotating_with_dynamic: false
+#
+#      # conflicts with `prefer_relative_imports`
+#    - always_use_package_imports: false
+#
+#      # Disabled for now until we have NNBD as it otherwise conflicts with `missing_return`
+#    - no_default_cases: false

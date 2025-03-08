@@ -1,0 +1,26 @@
+{
+
+  "authWithPAciTitle": "You need to authenticate with PACI first in order to unlock your onboarding steps",
+  "authWithPAciButton": "Authenticate PACI",
+  "setUpYourProfile": "Set up your profile",
+  "shareYourDetailsToGetStarted": "Share your details to get started",
+  "stepsDescription": "Take the first step towards growing your wealth,share your details to start investing with us",
+  "continueTo": "Continue to ",
+  "register": "Register",
+  "continueWord": "Continue",
+  "continueToTheNextStep": "Continue to the next step",
+  "saveAndExit": "Save and exit",
+  "authorizeSharePersonalInformation": "I authorize to share my personal information with KIB invest",
+  "uploadTheFile": "Upload the file",
+  "uploadComponentOptionCamera": "Camera",
+  "uploadComponentOptionFile": "Files",
+  "uploadComponentOptionGallery": "Photo gallery",
+  "pleaseEnableCameraPermission":"Please enable camera permission",
+  "pleaseEnablePhotoPermission": "Please enable photo permission",
+  "apply": "Apply",
+  "clear": "Clear",
+  "upTo": "up to",
+  "complete": "Complete",
+  "completed": "Completed",
+  "start": "Start"
+}

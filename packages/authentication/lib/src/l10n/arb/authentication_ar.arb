@@ -1,0 +1,135 @@
+{
+  "@@locale": "ar",
+  "authenticationRegistrationTitleUserRegistration": "تسجيل المستخدم",
+  "@authenticationRegistrationTitleUserRegistration": {
+    "description": "Title text displayed at the top of the user registration screen."
+  },
+  "authenticationRegistrationSubtitleStartProvidingYourDetails": "ابدأ بإدخال بياناتك، أدخل بريدك الإلكتروني واختر كلمة المرور الخاصة بك",
+  "@authenticationRegistrationSubtitleStartProvidingYourDetails": {
+    "description": "Subtitle instructing users to fill out their email and choose a password."
+  },
+  "authenticationRegistrationLabelEmail": "البريد الإلكتروني",
+  "@authenticationRegistrationLabelEmail": {
+    "description": "Label for the email input field."
+  },
+  "authenticationRegistrationLabelPassword": "كلمة المرور",
+  "@authenticationRegistrationLabelPassword": {
+    "description": "Label for the password input field."
+  },
+  "authenticationRegistrationLabelConfirmPassword": "تأكيد كلمة المرور",
+  "@authenticationRegistrationLabelConfirmPassword": {
+    "description": "Label for the confirm password input field."
+  },
+  "authenticationRegistrationButtonContinue": "متابعة",
+  "@authenticationRegistrationButtonContinue": {
+    "description": "Text for the primary button to continue registration."
+  },
+  "authenticationRegistrationRequirementsTitle": "يجب أن تحتوي كلمة المرور على:",
+  "@authenticationRegistrationRequirementsTitle": {
+    "description": "Heading text for password requirement specifications."
+  },
+  "authenticationRegistrationRequirementsLength": "8 إلى 20 حرفًا",
+  "@authenticationRegistrationRequirementsLength": {
+    "description": "Describes the minimum and maximum password length."
+  },
+  "authenticationRegistrationRequirementsUpperAndLowerAndNumberAndSpecialCharacter": "حرف كبير، وحرف صغير، ورقم واحد، ورمز خاص واحد",
+  "@authenticationRegistrationRequirementsUpperAndLowerAndNumberAndSpecialCharacter": {
+    "description": "Requirement specifying password composition."
+  },
+  "authenticationRegistrationRequirementsPasswordMatch": "يجب أن تتطابق كلمة المرور وتأكيد كلمة المرور",
+  "@authenticationRegistrationRequirementsPasswordMatch": {
+    "description": "Requirement that password and confirm password fields match."
+  },
+  "authenticationEmailOTPTitle": "أدخل رمز التحقق",
+  "@authenticationEmailOTPTitle": {
+    "description": "Prompt title for users to enter the verification code sent to their email."
+  },
+  "authenticationPersonalDetailsRegistrationTitleUserRegistration": "تسجيل المستخدم",
+  "@authenticationPersonalDetailsRegistrationTitleUserRegistration": {
+    "description": "Title displayed at the top when collecting personal details."
+  },
+  "authenticationPersonalDetailsRegistrationSutitleFillYourPersonalDetails": "املأ بياناتك الشخصية",
+  "@authenticationPersonalDetailsRegistrationSutitleFillYourPersonalDetails": {
+    "description": "Subtitle instructing the user to provide personal details."
+  },
+  "authenticationPersonalDetailsRegistrationCivilId": "الرقم المدني",
+  "@authenticationPersonalDetailsRegistrationCivilId": {
+    "description": "Label for the civil ID field."
+  },
+  "authenticationPersonalDetailsRegistrationMobileNumber": "رقم الجوال",
+  "@authenticationPersonalDetailsRegistrationMobileNumber": {
+    "description": "Label for the mobile number field."
+  },
+  "authenticationPersonalDetailsRegistrationButtonContinue": "متابعة",
+  "@authenticationPersonalDetailsRegistrationButtonContinue": {
+    "description": "Button text for continuing after entering personal details."
+  },
+  "authenticationMobileNumberOTPTitle": "أدخل رمز التحقق",
+  "@authenticationMobileNumberOTPTitle": {
+    "description": "Prompt title for users to enter the verification code sent to their mobile."
+  },
+  "authenticationRegistrationSuccessTitle": "تهانينا\nتمت العملية بنجاح!",
+  "@authenticationRegistrationSuccessTitle": {
+    "description": "Message displayed when registration is successful."
+  },
+  "authenticationRegistrationSuccessDescripation": "تم تسجيلك بنجاح",
+  "@authenticationRegistrationSuccessDescripation": {
+    "description": "Short message confirming successful registration."
+  },
+  "authenticationRegistrationSuccessButton": "متابعة",
+  "@authenticationRegistrationSuccessButton": {
+    "description": "Button text displayed on the registration success screen."
+  },
+  "skip": "تخطي",
+  "getStarted": "ابدأ الآن",
+  "onBoardingTitle1": "استثمر بطريقة متوافقة مع الشريعة",
+  "onBoardingTitle2": "آمن، مرن، أخلاقي",
+  "onBoardingTitle3": "ابدأ رحلتك الاستثمارية",
+  "onBoardingDescription1": "ابدأ رحلتك المتوافقة مع الشريعة بعوائد مستقرة وآمنة.",
+  "onBoardingDescription2": "استثمارات مرنة وأخلاقية تحافظ على ثروتك وتنميها.",
+  "onBoardingDescription3": "افتح حسابك وقم بأول استثمار لك في بضع خطوات بسيطة.",
+  "login": "تسجيل الدخول",
+  "exploreInvestmentOpportunities": "استكشف فرص الاستثمار",
+  "neverUsedOnlineKIBInvestBefore": "لم تستخدم KIB Invest عبر الإنترنت من قبل؟",
+  "registerNow": "سجل الآن",
+  "loginDetails": "تفاصيل تسجيل الدخول",
+  "pleaseEnterYourEmailIDAndPassword": "يرجى إدخال بريدك الإلكتروني وكلمة المرور",
+  "emailID": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgotPassword": "هل نسيت كلمة المرور؟",
+
+  "paciAuthenticationFailedTitle": "لم تتم المصادقة بنجاح",
+  "paciAuthenticationFailedDescription": "تم رفض طلب المصادقه من تطبيق هويتي الخاص بك",
+  "paciAuthHeader": "المصادقة باستخدام تطبيق هويتي",
+  "reAuthPaciHeader": "إعادة المصادقة",
+  "paciAuthSuccessTitle": "تمت المصادقة بنجاح على تطبيق هويتي",
+  "paciAuthSuccessDesc": "يرجى التحقق من معلوماتك و المتابعة لإتمام عملية التسجيل.",
+  "continueTitle": "استمرار",
+  "englishNameTitle": "الاسم بالإنجليزية",
+  "arabicNameTitle": "الاسم بالعربية",
+  "civilIdTitle": "الرقم المدني",
+  "civilIdExpiryDateTitle": "تاريخ انتهاء صلاحية البطاقة المدني",
+  "dateOfBirthTitle": "تاريخ الميلاد",
+  "nationalityTitle": "الجنسية",
+  "genderTitle": "الجنس",
+  "addressTitle": "العنوان",
+  "openPaciAndAcceptTitle": "يرجى فتح التطبيق والموافقة على الطلب المصادقة",
+  "authPaciAndSignTitle": "'المصادقة و التوقيع'",
+  "paciAuthRequestSentTitle": "تم إرسال طلب المصادقة إلى تطبيق هويتي الخاص بك وهو في انتظار التحقق منك.",
+  "paciAuthExpiresInTitle": "تنتهي صلاحية طلب المصادقة خلال",
+  "didYouForgotPassword": "هل نسيت كلمة المرور؟",
+  "civilID": "الرقم المدني",
+  "pleaseEnterYourCivilIDAndPhoneNumber": "يرجى إدخال الرقم المدني ورقم الهاتف",
+  "buttonContinue": "متابعة",
+  "mobileNumber": "رقم الهاتف",
+  "resetPassword": "إعادة تعيين كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "passwordMustAtLeastBe": "يجب أن تكون كلمة المرور على الأقل:",
+  "passwordLength": "من 8 إلى 20 حرفًا",
+  "validPassword": "حرف كبير، حرف صغير، رقم، وحرف خاص واحد على الأقل",
+  "passwordMatching": "يجب أن تتطابق كلمة المرور مع تأكيد كلمة المرور",
+  "congratulationsYouAllSet": "مبروك، لقد تم الإعداد بنجاح!",
+  "yourPasswordHasBeenUpdated": "تم تحديث كلمة المرور الخاصة بك"
+}
+
+

@@ -1,0 +1,23 @@
+{
+  "investmentsProductsTitle": "Investment products",
+  "fundManagerTitle": "Fund manager",
+  "minimumInvestmentTitle": "Minimum investment",
+  "liquidityTitle": "Liquidity",
+  "inceptionDateTitle": "Inception date",
+  "navTitle": "NAV",
+  "navDateTitle": "NAV date",
+  "annualizedWeekReturnTitle": "Annualized 1 week return",
+  "returnSinceInception": "Return since inception",
+  "navPriceTitle": "Nav price",
+  "highlightsTitle": "Highlights",
+  "featuresTitle": "Features",
+  "articlesAssociationTitle": "Articles of Association(AoA)",
+  "factSheetTitle": "Fact sheet",
+  "termsAndConditionsTitle": "Terms and conditions",
+  "registerNowTitle": "Register now",
+  "kibInvestFundsTitle": "KIB Invest Funds",
+  "minInvestmentTitle": "Min. investment",
+  "annualizedWeekTitle": "Annualized 1 week",
+  "fundsUnavailableEmptyStateTitle": "Funds unavailable",
+  "fundsUnavailableEmptyStateDesc": "List of funds are currently unavailable"
+}

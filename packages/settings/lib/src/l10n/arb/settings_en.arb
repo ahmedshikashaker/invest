@@ -1,0 +1,6 @@
+{
+  "notificationsLabelNotifications": "Notifications",
+  "notificationsEmptyStateNoNotificationFoundMessage": "We will notify you once we have something to share with you! ",
+  "notificationsEmptyStateNoNotificationFoundTitle": "No notification yet",
+  "notificationsDetailsTitle": "Notification details"
+}

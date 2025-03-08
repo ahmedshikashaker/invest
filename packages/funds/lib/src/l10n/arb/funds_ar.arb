@@ -1,0 +1,23 @@
+{
+  "investmentsProductsTitle": "المنتجات الاستثمارية",
+  "fundManagerTitle": "مدير الصندوق الاستثماري",
+  "minimumInvestmentTitle": "الحد الأدنى للمساهمة",
+  "liquidityTitle": "السيولة المالية",
+  "inceptionDateTitle": "تاريخ الإطلاق",
+  "navTitle": "صافي قيمة الأصول",
+  "navDateTitle": "تاريخ تقييم صافي الأصول",
+  "annualizedWeekReturnTitle": "العائد السنوي لمدة أسبوع",
+  "returnSinceInception": "العائد التراكمي منذ التأسيس",
+  "navPriceTitle": "سعر الوحدة الاستثمارية",
+  "highlightsTitle": "المميزات",
+  "featuresTitle": "الخصائص",
+  "articlesAssociationTitle": "النظام الأساسي للصندوق الاستثماري",
+  "factSheetTitle": "لائحة الحقائق",
+  "termsAndConditionsTitle": "الشروط و الأحكام",
+  "registerNowTitle": "اشترك الآن",
+  "kibInvestFundsTitle": "صناديق KIB للاستثمار",
+  "minInvestmentTitle": "أدنى قيمة استثمارية",
+  "annualizedWeekTitle": "العائد السنوي للأسبوع",
+  "fundsUnavailableEmptyStateTitle": "الصناديق الاستثمارية غير متوفرة",
+  "fundsUnavailableEmptyStateDesc": "القائمة الاستثمارية غير متاحة في الوقت الحالي"
+}
